@@ -3,13 +3,13 @@ This repository demonstrates a QR code scanner based on the plugin cordova-plugi
 
 ## Code Sample 
 
-First run to add the plugin: 
+First add the plugin
 
 ```
 cordova plugin add cordova-plugin-qrscanner
 ```
 
-QRScanner is then globally available and can be used as follows:
+QRScanner is then globally available and can be used as follows
 
 ```js
 QRScanner.scan(displayContents);
@@ -28,6 +28,10 @@ QRScanner.show(function(status){
     console.log(status);
 });
 ```
+
+The result looks like this
+
+![Cordova QR](https://github.com/benni1371/cordovaQRCodeScanner/blob/master/qr.png)
 
 ## Notes
 
