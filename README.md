@@ -35,7 +35,7 @@ The result looks like this
 
 ## Notes
 
-The plugin seems to be a little unstable.
+The plugin seems to be a little unstable. If you start from scratch please add `worker-src 'self' blob:` to the Content-Security-Policy meta-tag in the HTML file.
 
 ## License
 
